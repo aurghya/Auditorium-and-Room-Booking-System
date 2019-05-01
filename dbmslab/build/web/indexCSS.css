@@ -1,0 +1,129 @@
+/* 
+    Created on : 31 Mar, 2019, 3:29:40 PM
+    Author     : H.O.V.A.
+*/
+
+form { margin: 0px 10px; }
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.container { max-width: 360px; }
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px;
+    padding:20px;
+    background-image: url("tw.png");
+
+}
+
+h1 { font-weight: 900;
+     color: #fff ; 
+     font-family: 'Open Sans', sans-serif; 
+     font-size: 40px; 
+     line-height: 40px; 
+     margin: 0 0 16px;
+     align: center;
+}
+h2{
+    align:"middle";
+}
+
+label.btn span {
+  font-size: 1.5em ;
+}
+
+label input[type="radio"] ~ i.fa.fa-circle-o{
+    color: #c8c8c8;    display: inline;
+        border: 0px;
+    width: 100%;
+    height: 2em;
+}
+label input[type="radio"] ~ i.fa.fa-dot-circle-o{
+    display: none;
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+    display: none;
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+label input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+    color: #7AA3CC;    display: inline;
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+label:hover input[type="radio"] ~ i.fa {
+color: #7AA3CC;
+}
+
+label input[type="checkbox"] ~ i.fa.fa-square-o{
+    color: #c8c8c8;    display: inline;
+}
+label input[type="checkbox"] ~ i.fa.fa-check-square-o{
+    display: none;
+}
+label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
+    display: none;
+}
+label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
+    color: #7AA3CC;    display: inline;
+}
+label:hover input[type="checkbox"] ~ i.fa {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label.active{
+    color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 10px;
+font-weight: normal;
+line-height: 2em;
+text-align: left;
+white-space: nowrap;
+vertical-align: top;
+cursor: pointer;
+border: 0px solid 
+#c8c8c8;
+border-radius: 3px;
+color: #c8c8c8;
+
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+
