@@ -18,4 +18,4 @@ The applicant can be either a student or a professor. A professor does not requi
 - Audio-Visual facilities (optional)
 
 ## Department, Authority and Security ##
-The application for a room will be approved only after the 
+The application for a room will be approved only after all the authories have approved it.
